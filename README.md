@@ -61,7 +61,7 @@ interactive-solar-system/
    
 2. **Navigate to the project directory:**
    ```bash
-   cd interactive-solar-system
+   cd solar_system_exploration
    
 3. **Install dependencies:**
    ```bash
