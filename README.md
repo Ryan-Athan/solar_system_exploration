@@ -45,6 +45,7 @@ interactive-solar-system/
 ├── package.json              # Dependencies and metadata
 ├── vite.config.js            # Vite configuration
 └── README.md                 # Project documentation
+```
 
 # 🚀 Getting Started
 
@@ -55,32 +56,33 @@ interactive-solar-system/
 
 ## Installation
 1. **Clone the repository**
-   
-bash
-   git clone https://github.com/yourusername/myanglish-translator-app.git
+   ```bash
+   git clone https://github.com/yourusername/interactive-solar-system.git
    
 2. **Navigate to the project directory:**
-bash
-   cd myanglish-translator-app
+   ```bash
+   cd interactive-solar-system
    
 3. **Install dependencies:**
-   
-bash
+   ```bash
     npm install
    
 ## Running the App
 
 **To start the development server:**
-bash
-       npm run dev
-   
+   ```bash
+       npm start
+   ```
+
 **Visit http://localhost:5173/ in your browser to use the app.**
 
 ## Building for Production
  **To create an optimized production build:**
-bash
+
+ ```bash
  npm run build
- 
+ ```
+
 ## Contributing
 
 - Feel free to fork the repository and make pull requests. Contributions are always welcome! ✨
