@@ -176,12 +176,12 @@ window.showPlanetInfo = showPlanetInfo;
 window.closeModal = closeModal;
 
 // Toggle constellations functionality
-const toggleConstellationsButton = document.getElementById('toggleConstellations');
-const constellationBox = document.querySelector('.constellation-box');
+// const toggleConstellationsButton = document.getElementById('toggleConstellations');
+// const constellationBox = document.querySelector('.constellation-box');
 
-toggleConstellationsButton.addEventListener('click', () => {
-  constellationBox.classList.toggle('hidden');
-});
+// toggleConstellationsButton.addEventListener('click', () => {
+//   constellationBox.classList.toggle('hidden');
+// });
 
 // Planet details data
 const planetDetails = {
@@ -287,133 +287,133 @@ const planetDetails = {
 };
 
 // DOM Elements
-const searchBar = document.getElementById('search-bar');
-const constellationList = document.getElementById('constellation-list');
+// const searchBar = document.getElementById('search-bar');
+// const constellationList = document.getElementById('constellation-list');
 
-// Folder containing images
-const imageFolder = '/stars/';
+// // Folder containing images
+// const imageFolder = '/stars/';
 
-// Array of image file names
-const imageFiles = [
-  'andromeda.jpg',
-  'antlia.jpg',
-  'apus.jpg',
-  'aquarius.jpg',
-  'aquila.jpg',
-  'ara.jpg',
-  'aries.jpg',
-  'auriga.jpg',
-  'bootes.jpg',
-  'caelum.jpg',
-  'camelopardalis.jpg',
-  'cancer.jpg',
-  'canes venatici.jpg',
-  'canis major.jpg',
-  'canis minor.jpg',
-  'capricornus.jpg',
-  'carina.jpg',
-  'cassiopeia.jpg',
-  'centaurus.jpg',
-  'cepheus.jpg',
-  'cetus.jpg',
-  'chamaeleon.jpg',
-  'circinus.jpg',
-  'columba.jpg',
-  'coma berenices.jpg',
-  'corona australis.jpg',
-  'corona borealis.jpg',
-  'corvus.jpg',
-  'crater.jpg',
-  'crux.jpg',
-  'cygnus.jpg',
-  'delphinus.jpg',
-  'dorado.jpg',
-  'draco.jpg',
-  'equuleus.jpg',
-  'eridanus.jpg',
-  'fornax.jpg',
-  'gemini.jpg',
-  'grus.jpg',
-  'hercules.jpg',
-  'horologium.jpg',
-  'hydra.jpg',
-  'hydrus.jpg',
-  'indus.jpg',
-  'lacerta.jpg',
-  'leo.jpg',
-  'leo minor.jpg',
-  'lepus.jpg',
-  'libra.jpg',
-  'lupus.jpg',
-  'lynx.jpg',
-  'lyra.jpg',
-  'mensa.jpg',
-  'microscopium.jpg',
-  'monoceros.jpg',
-  'musca.jpg',
-  'norma.jpg',
-  'octans.jpg',
-  'ophiuchus.jpg',
-  'orion.jpg',
-  'pavo.jpg',
-  'pegasus.jpg',
-  'perseus.jpg',
-  'phoenix.jpg',
-  'pictor.jpg',
-  'pisces.jpg',
-  'piscis austrinus.jpg',
-  'puppis.jpg',
-  'pyxis.jpg',
-  'reticulum.jpg',
-  'sagitta.jpg',
-  'sagittarius.jpg',
-  'scorpius.jpg',
-  'sculptor.jpg',
-  'scutum.jpg',
-  'serpens.jpg',
-  'sextans.jpg',
-  'taurus.jpg',
-  'telescopium.jpg',
-  'triangulum.jpg',
-  'triangulum australe.jpg',
-  'tucana.jpg',
-  'ursa major.jpg',
-  'ursa minor.jpg',
-  'vela.jpg',
-  'virgo.jpg',
-  'volans.jpg',
-  'vulpecula.jpg'
-];
+// // Array of image file names
+// const imageFiles = [
+//   'andromeda.jpg',
+//   'antlia.jpg',
+//   'apus.jpg',
+//   'aquarius.jpg',
+//   'aquila.jpg',
+//   'ara.jpg',
+//   'aries.jpg',
+//   'auriga.jpg',
+//   'bootes.jpg',
+//   'caelum.jpg',
+//   'camelopardalis.jpg',
+//   'cancer.jpg',
+//   'canes venatici.jpg',
+//   'canis major.jpg',
+//   'canis minor.jpg',
+//   'capricornus.jpg',
+//   'carina.jpg',
+//   'cassiopeia.jpg',
+//   'centaurus.jpg',
+//   'cepheus.jpg',
+//   'cetus.jpg',
+//   'chamaeleon.jpg',
+//   'circinus.jpg',
+//   'columba.jpg',
+//   'coma berenices.jpg',
+//   'corona australis.jpg',
+//   'corona borealis.jpg',
+//   'corvus.jpg',
+//   'crater.jpg',
+//   'crux.jpg',
+//   'cygnus.jpg',
+//   'delphinus.jpg',
+//   'dorado.jpg',
+//   'draco.jpg',
+//   'equuleus.jpg',
+//   'eridanus.jpg',
+//   'fornax.jpg',
+//   'gemini.jpg',
+//   'grus.jpg',
+//   'hercules.jpg',
+//   'horologium.jpg',
+//   'hydra.jpg',
+//   'hydrus.jpg',
+//   'indus.jpg',
+//   'lacerta.jpg',
+//   'leo.jpg',
+//   'leo minor.jpg',
+//   'lepus.jpg',
+//   'libra.jpg',
+//   'lupus.jpg',
+//   'lynx.jpg',
+//   'lyra.jpg',
+//   'mensa.jpg',
+//   'microscopium.jpg',
+//   'monoceros.jpg',
+//   'musca.jpg',
+//   'norma.jpg',
+//   'octans.jpg',
+//   'ophiuchus.jpg',
+//   'orion.jpg',
+//   'pavo.jpg',
+//   'pegasus.jpg',
+//   'perseus.jpg',
+//   'phoenix.jpg',
+//   'pictor.jpg',
+//   'pisces.jpg',
+//   'piscis austrinus.jpg',
+//   'puppis.jpg',
+//   'pyxis.jpg',
+//   'reticulum.jpg',
+//   'sagitta.jpg',
+//   'sagittarius.jpg',
+//   'scorpius.jpg',
+//   'sculptor.jpg',
+//   'scutum.jpg',
+//   'serpens.jpg',
+//   'sextans.jpg',
+//   'taurus.jpg',
+//   'telescopium.jpg',
+//   'triangulum.jpg',
+//   'triangulum australe.jpg',
+//   'tucana.jpg',
+//   'ursa major.jpg',
+//   'ursa minor.jpg',
+//   'vela.jpg',
+//   'virgo.jpg',
+//   'volans.jpg',
+//   'vulpecula.jpg'
+// ];
 
-// Function to display images and their names
-async function displayConstellations() {
-  constellationList.innerHTML = '';
+// // Function to display images and their names
+// async function displayConstellations() {
+//   constellationList.innerHTML = '';
 
-  // Iterate over each image file and generate the HTML for it
-  imageFiles.forEach(imageFile => {
-    // Extract the constellation name from the file name
-    const name = imageFile.replace('.jpg', '').replace(/_/g, ' ').toUpperCase();
+//   // Iterate over each image file and generate the HTML for it
+//   imageFiles.forEach(imageFile => {
+//     // Extract the constellation name from the file name
+//     const name = imageFile.replace('.jpg', '').replace(/_/g, ' ').toUpperCase();
 
-    // Append the image and name to the `constellationList` element
-    constellationList.innerHTML += `
-      <div style="text-align: center;">
-        <img src='${imageFolder}${imageFile}' alt='${name}' />
-        <h2 style="text-align: center;">${name}</h2>
-      </div>
-    `;
-  });
-}
+//     // Append the image and name to the `constellationList` element
+//     constellationList.innerHTML += `
+//       <div style="text-align: center;">
+//         <img src='${imageFolder}${imageFile}' alt='${name}' />
+//         <h2 style="text-align: center;">${name}</h2>
+//       </div>
+//     `;
+//   });
+// }
 
-// Filter images based on search input
-searchBar.addEventListener('input', () => {
-  const filter = searchBar.value.toLowerCase();
-  const items = constellationList.getElementsByTagName('div');
+// // Filter images based on search input
+// searchBar.addEventListener('input', () => {
+//   const filter = searchBar.value.toLowerCase();
+//   const items = constellationList.getElementsByTagName('div');
 
-  Array.from(items).forEach(item => {
-    const name = item.textContent.toLowerCase();
-    item.style.display = name.includes(filter) ? '' : 'none';
-  });
-});
+//   Array.from(items).forEach(item => {
+//     const name = item.textContent.toLowerCase();
+//     item.style.display = name.includes(filter) ? '' : 'none';
+//   });
+// });
 
-// Initialize display on page load
-displayConstellations();
+// // Initialize display on page load
+// displayConstellations();
