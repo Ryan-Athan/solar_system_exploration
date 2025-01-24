@@ -142,7 +142,7 @@ const searchBar = document.getElementById('search-bar');
 const constellationList = document.getElementById('constellation-list');
 
 // Folder containing images
-const imageFolder = 'stars/';
+const imageFolder = '/stars/';
 
 // Array of image file names
 const imageFiles =[
