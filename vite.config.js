@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    publicDir: './public', // Static assets like images
-    root: '.',             // Root directory is the project root
+    publicDir: './src/public', // Update the path to reflect the new location in `src`
+    root: '.',                // Root directory remains the project root
     build: {
-        outDir: './dist',  // Output build files in the `dist` folder
+        outDir: './dist',     // Output build files in the `dist` folder
         rollupOptions: {
             input: './index.html', // Entry HTML file in the project root
         },
